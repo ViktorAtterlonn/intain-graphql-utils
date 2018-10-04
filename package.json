@@ -1,0 +1,29 @@
+{
+  "name": "intain-graphql-utils",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha  --recursive test"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-graphql": "^2.1.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "mocha": "^5.2.0",
+    "mockery": "^2.1.0",
+    "prettier": "^1.14.3",
+    "apollo-server": "^2.1.0",
+    "graphql": "^14.0.2"
+  },
+  "peerDependencies": {
+    "graphql-tools": "^3.0.1",
+    "graphql": "^0.13.2",
+    "apollo-server": "^2.0.5"
+  }
+}

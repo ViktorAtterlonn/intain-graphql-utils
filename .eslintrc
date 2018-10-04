@@ -1,0 +1,16 @@
+{
+  "plugins": ["prettier", "react"],
+  "rules": {
+    "no-unused-vars": "error",
+    "react/jsx-uses-react": "error"
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "modules": true,
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  }
+}
